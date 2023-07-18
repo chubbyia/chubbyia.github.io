@@ -1,0 +1,26 @@
+var bowler = new Array();
+var numberofbowlers = 0;
+var bowlnumPos = 0;
+var $games = new Array();
+var numberofgames = 0;
+var $cnt=8;
+var $week = 0;
+var $game1cnt=0;
+var $game2cnt=0;
+var $game3cnt=0;
+var $seriescnt=0;
+var $game1tot=0;
+var $game2tot=0;
+var $game3tot=0;
+var $seriestot=0;
+var $total=0;
+var $blank=0;
+var $firstname = " ";
+var $lastname = " ";
+var $name = " ";
+var $score = new Array(301);
+var i=0;
+for (i = 1; i < 301; i++) {
+	$score[i] = 0
+}
+i=0;
